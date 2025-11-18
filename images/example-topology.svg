@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <style> .node { fill:#f3f4f6; stroke:#111827; stroke-width:2 } .label { font:14px sans-serif; fill:#111827 } </style>
+  <line x1="100" y1="100" x2="300" y2="100" stroke="#4B5563" stroke-width="2"/>
+  <line x1="300" y1="100" x2="500" y2="100" stroke="#4B5563" stroke-width="2"/>
+  <circle cx="100" cy="100" r="30" class="node"/>
+  <text x="100" y="140" text-anchor="middle" class="label">Workstation</text>
+  <rect x="270" y="70" width="60" height="60" rx="8" class="node"/>
+  <text x="300" y="140" text-anchor="middle" class="label">Router</text>
+  <circle cx="500" cy="100" r="30" class="node"/>
+  <text x="500" y="140" text-anchor="middle" class="label">Server</text>
+</svg>
